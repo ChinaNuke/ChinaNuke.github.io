@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>面向小白的 Windows 系统重装教程 - ChinaNuke的博客</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="ChinaNuke的博客"><meta name="msapplication-TileImage" content="/img/steve-jumping-dino.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="ChinaNuke的博客"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="这是一篇面向小白用户的Windows系统重装教程，由易到难地介绍了重装Windows系统的四种方法，包括直接使用系统提供的重置功能、直接运行镜像内的安装程序、把镜像文件写入U盘安装以及使用PE系统进行安装，内容尽可能简洁明了，可能有部分描述不太专业，欢迎在评论区指正！"><meta property="og:type" content="blog"><meta property="og:title" content="面向小白的 Windows 系统重装教程"><meta property="og:url" content="https://www.nuke666.cn/2021/08/How-to-reinstall-Windows/"><meta property="og:site_name" content="ChinaNuke的博客"><meta property="og:description" content="这是一篇面向小白用户的Windows系统重装教程，由易到难地介绍了重装Windows系统的四种方法，包括直接使用系统提供的重置功能、直接运行镜像内的安装程序、把镜像文件写入U盘安装以及使用PE系统进行安装，内容尽可能简洁明了，可能有部分描述不太专业，欢迎在评论区指正！"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://i.loli.net/2021/08/02/B5aK4qmEruCNAne.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/fPXWgCRTBduca5Y.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/djthRqkVb2olKJf.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/hPvNgrapt7O9zTL.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/E2KITXtkv19bMiY.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/8IoCyHWld9RV7q6.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/9bqNX7GDCHFQslJ.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/lD5fIPynqdNLYZ4.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/1xKS5dH7EYpTgDC.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/fZocz5RAKTM8HOp.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/ylHKhgxArBZW6R5.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/5xMValivGDJFHWS.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/sTnfw4i9uDAe2Sk.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/BiUhPTzwS1lrsy9.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/3hOMm2FtjRzQsxZ.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/aFszopYXbKim9Qc.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/73eCwtmQFXv8GJZ.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/wAuiMXH4fvgW6zC.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/Ui38LYJO7wr6jN5.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/JaxMiFmf75VKygS.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/sjELy1hd4KJ3uVX.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/BiUhPTzwS1lrsy9.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/S85QLzOH9PeZi2f.png"><meta property="og:image" content="https://i.loli.net/2021/08/03/Bj8Os93H74uIpKA.png"><meta property="og:image" content="https://i.loli.net/2021/08/03/VyKMzednOfahxCZ.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/XcbZogm6YJjktPS.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/fJsVZN5h2WBLtA6.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/De2v9zQ41A3BIb6.png"><meta property="og:image" content="https://i.loli.net/2021/08/02/dOnpky1jDxbGZ8v.png"><meta property="article:published_time" content="2021-08-03T08:18:50.000Z"><meta property="article:author" content="ChinaNuke"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://i.loli.net/2021/08/02/B5aK4qmEruCNAne.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.nuke666.cn/2021/08/How-to-reinstall-Windows/"},"headline":"面向小白的 Windows 系统重装教程","image":["https://i.loli.net/2021/08/02/B5aK4qmEruCNAne.png","https://i.loli.net/2021/08/02/fPXWgCRTBduca5Y.png","https://i.loli.net/2021/08/02/djthRqkVb2olKJf.png","https://i.loli.net/2021/08/02/hPvNgrapt7O9zTL.png","https://i.loli.net/2021/08/02/E2KITXtkv19bMiY.png","https://i.loli.net/2021/08/02/8IoCyHWld9RV7q6.png","https://i.loli.net/2021/08/02/9bqNX7GDCHFQslJ.png","https://i.loli.net/2021/08/02/lD5fIPynqdNLYZ4.png","https://i.loli.net/2021/08/02/1xKS5dH7EYpTgDC.png","https://i.loli.net/2021/08/02/fZocz5RAKTM8HOp.png","https://i.loli.net/2021/08/02/ylHKhgxArBZW6R5.png","https://i.loli.net/2021/08/02/5xMValivGDJFHWS.png","https://i.loli.net/2021/08/02/sTnfw4i9uDAe2Sk.png","https://i.loli.net/2021/08/02/BiUhPTzwS1lrsy9.png","https://i.loli.net/2021/08/02/3hOMm2FtjRzQsxZ.png","https://i.loli.net/2021/08/02/aFszopYXbKim9Qc.png","https://i.loli.net/2021/08/02/73eCwtmQFXv8GJZ.png","https://i.loli.net/2021/08/02/wAuiMXH4fvgW6zC.png","https://i.loli.net/2021/08/02/Ui38LYJO7wr6jN5.png","https://i.loli.net/2021/08/02/JaxMiFmf75VKygS.png","https://i.loli.net/2021/08/02/sjELy1hd4KJ3uVX.png","https://i.loli.net/2021/08/02/BiUhPTzwS1lrsy9.png","https://i.loli.net/2021/08/02/S85QLzOH9PeZi2f.png","https://i.loli.net/2021/08/03/Bj8Os93H74uIpKA.png","https://i.loli.net/2021/08/03/VyKMzednOfahxCZ.png","https://i.loli.net/2021/08/02/XcbZogm6YJjktPS.png","https://i.loli.net/2021/08/02/fJsVZN5h2WBLtA6.png","https://i.loli.net/2021/08/02/De2v9zQ41A3BIb6.png","https://i.loli.net/2021/08/02/dOnpky1jDxbGZ8v.png"],"datePublished":"2021-08-03T08:18:50.000Z","author":{"@type":"Person","name":"ChinaNuke"},"publisher":{"@type":"Organization","name":"ChinaNuke的博客","logo":{"@type":"ImageObject","url":{"text":"ChinaNuke的博客"}}},"description":"这是一篇面向小白用户的Windows系统重装教程，由易到难地介绍了重装Windows系统的四种方法，包括直接使用系统提供的重置功能、直接运行镜像内的安装程序、把镜像文件写入U盘安装以及使用PE系统进行安装，内容尽可能简洁明了，可能有部分描述不太专业，欢迎在评论区指正！"}</script><link rel="canonical" href="https://www.nuke666.cn/2021/08/How-to-reinstall-Windows/"><link rel="icon" href="/img/steve-jumping-dino.svg"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.15.2/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/justifiedGallery/3.7.0/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdnjs.loli.net/ajax/libs/pace/1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.4.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">ChinaNuke的博客</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">主页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/about">关于我</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="我的 GitHub 主页" href="https://github.com/ChinaNuke"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-08-03T08:18:50.000Z" title="8/3/2021, 8:18:50 AM">2021-08-03</time>发表</span><span class="level-item">33 分钟读完 (大约4966个字)</span></div></div><h1 class="title is-3 is-size-4-mobile">面向小白的 Windows 系统重装教程</h1><div class="content"><p>这是一篇面向小白用户的 Windows 系统重装教程，由易到难地介绍了重装 Windows 系统的四种方法，包括直接使用系统提供的重置功能、直接运行镜像内的安装程序、把镜像文件写入 U 盘安装以及使用 PE 系统进行安装，内容尽可能简洁明了，可能有部分描述不太专业，欢迎在评论区指正！</p>
+<span id="more"></span>
+
+<blockquote>
+<p>前言：本来觉得没有必要写一篇这样的东西，网上教程一大把一大把的，可是经常会有人问我怎么重装系统，看了看吧一些教程贴讲的也不是很清楚，没找到一篇合适的可以直接甩给别人的，干脆就自己写一篇，再有人问我就把这文章甩给他。</p>
+</blockquote>
+<article class="message message-immersive is-primary"><div class="message-body"><i class="fas fa-info-circle mr-2"></i>文章较长且图片较多，阅读时可以点击页面左侧目录进行跳转。</div></article>
+
+<h2 id="概念解释"><a href="# 概念解释" class="headerlink" title="概念解释"></a>概念解释 </h2><p> 首先对本文中出现的几个概念进行简要的解释，便于理解后续内容。</p>
+<ul>
+<li><p><strong>操作系统 </strong><br><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"> 维基百科 </a> 上对操作系统的定义是：“一组主管并控制计算机操作、运用和运行硬件、软件资源和提供公共服务来组织用户交互的相互关联的系统软件程序”。我们所使用的 Windows 就是一种操作系统，除此之外比较流行的还有开源的 Linux 系统（一般我们使用基于 Linux 内核的发行版，如 Debian、Ubuntu、CentOS 等）、苹果的 macOS 系统等。</p>
+</li>
+<li><p><strong>硬盘（磁盘）</strong><br>硬盘就是就是我们电脑上用来存储数据的一个硬件设备，操作系统和我们的数据文件都是存储在硬盘上的。</p>
+</li>
+<li><p><strong>分区（驱动器）</strong><br>硬盘分区是指将硬盘的整体存储空间划分成多个独立的区域，分别用于操作系统、应用程序及数据文件等（<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%A1%AC%E7%9B%98%E5%88%86%E5%8C%BA">百度百科</a>）。Windows 系统上的分区就是我们通常说的 C 盘、D 盘、E 盘这些，比如有人习惯把操作系统安装在 C 盘，应用程序安装在 D 盘，把自己的数据文件存储在 E 盘，这样如果系统崩溃了，不会影响到我们的数据文件。</p>
+</li>
+<li><p><strong>系统镜像 </strong><br> 本文中的系统镜像指下载的用于安装 Windows 操作系统的文件，通常以 .iso 为后缀名。</p>
+</li>
+<li><p><strong>PE 系统</strong><br>Windows 预安装环境（Windows Preinstallation Environment），可以理解为一个最小 Windows 系统，它可以被放在 U 盘上，用来安装正式的操作系统，或者进行一些维护操作。常见的 PE 系统有：微 PE、老毛桃、大白菜、优启通等，有些不太良心的 PE 系统会在你安装系统过程中夹带私货，个人更推荐微 PE。</p>
+</li>
+<li><p><strong>BIOS</strong><br>基本输入输出系统（Basic Input Output System）本质上是一个程序，主要负责开机时自检以及引导操作系统启动，在装系统过程中我们主要使用 BIOS 提供的启动菜单来实现从 U 盘启动。</p>
+</li>
+<li><p><strong>UEFI 和 Legency BIOS 以及 GPT 分区表和 MBR 分区表 </strong><br> 说来话长长话短说，UEFI 的出现是为了取代传统 BIOS，更好，近几年的电脑几乎都使用 UEFI 而不是传统 BIOS。GPT 与 UEFI 对应，MBR 与 Legency BIOS 对应，GPT 更好。所以现在装系统都是 UEFI+GPT 的组合，如果你发现新买的电脑是 BIOS+MBR 的组合，十有八九是无良电脑店水平不行他不懂给你瞎装……</p>
+</li>
+</ul>
+<h2 id="重装系统前的准备工作"><a href="# 重装系统前的准备工作" class="headerlink" title="重装系统前的准备工作"></a>重装系统前的准备工作 </h2><h3 id="备份重要文件"><a href="# 备份重要文件" class="headerlink" title="备份重要文件"></a> 备份重要文件 </h3><p><strong> 在进行后面的操作之前一定要备份好电脑里重要的数据！！</strong></p>
+<p>怎么备份？把重要的文件拷到 U 盘里或者移动硬盘里是最简单的方法。</p>
+<h3 id="获取系统镜像"><a href="# 获取系统镜像" class="headerlink" title="获取系统镜像"></a>获取系统镜像</h3><p><a target="_blank" rel="noopener" href="https://next.itellyou.cn/">MSDN, I Tell You</a> 是一个广受好评的网站，找到想要下载的操作系统，选择合适的版本，复制下载链接进行下载即可，ed2k 和 bt 格式的下载链接可以使用迅雷或者百度云离线下载等工具进行下载，Windows 镜像下载后会得到一个后缀为.iso 的镜像文件。对大多数人来说，版本选择 Consumer Editions 即可。。</p>
+<h2 id="方法一：通过系统提供的重置功能"><a href="# 方法一：通过系统提供的重置功能" class="headerlink" title="方法一：通过系统提供的重置功能"></a>方法一：通过系统提供的重置功能 </h2><p> 如果你只是想清空一下当前的系统，恢复到刚装完系统的干净状态，并不打算更改系统版本，那么最简单的方法是直接在系统设置中进行重置，不需要什么额外的知识，也不需要 U 盘，不需要下载任何东西，简单粗暴。打开“设置” -&gt; “更新和安全” -&gt; “恢复”，可以看到系统提供了“重置此电脑”的操作。</p>
+<img src="https://i.loli.net/2021/08/02/B5aK4qmEruCNAne.png" title="在系统中进行重置" alt="在系统中进行重置" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<p>点击“开始”，然后选择“删除所有内容”，之后程序会显示出默认要执行的操作，“删除应用和文件。不清理驱动器”即不对分区进行覆写，“仅删除 Windows 驱动器中的所有文件”即仅删除系统盘（C 盘）的内容，C、D、E 这些其他盘里的东西原封不动。如果要对这个设置进行修改，点击“更改设置”，选择是否要覆写磁盘防止有心之人恢复你已经删除的数据（一般没必要，这个操作很慢），以及是否要删除所有的驱动器而不只是删除 C 盘。确认无误后，就可以点击“重置”然后等待系统重置完成。</p>
+<img src="https://i.loli.net/2021/08/02/fPXWgCRTBduca5Y.png" title="选择删除所有内容" alt="选择删除所有内容" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<img src="https://i.loli.net/2021/08/02/djthRqkVb2olKJf.png" title="程序显示出即将执行的操作" alt="程序显示出即将执行的操作" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<img src="https://i.loli.net/2021/08/02/hPvNgrapt7O9zTL.png" title="更改要执行的操作" alt="更改要执行的操作" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<img src="https://i.loli.net/2021/08/02/E2KITXtkv19bMiY.png" title="点击“重置”开始重置过程" alt="点击“重置”开始重置过程" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<img src="https://i.loli.net/2021/08/02/8IoCyHWld9RV7q6.png" title="等待系统重置完成" alt="等待系统重置完成" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<h2 id="方法二：直接运行镜像内的安装程序"><a href="# 方法二：直接运行镜像内的安装程序" class="headerlink" title="方法二：直接运行镜像内的安装程序"></a>方法二：直接运行镜像内的安装程序 </h2><p> 如果你的系统现在能够正常使用，那么可以直接在当前系统中双击下载的镜像文件运行安装程序（可以把它当做一个安装包），系统会自动使用虚拟光驱装载镜像文件，并弹出一个 DVD 驱动器的窗口。双击“setup.exe”程序，选择允许更改，即可看到“Windows 10 安装程序”窗口。在这里可以“更改 Windows 安装程序下载更新的方式”，选择是在安装系统时下载更新、驱动程序和可选功能还是在安装完系统后再进行这些操作。</p>
+<img src="https://i.loli.net/2021/08/02/9bqNX7GDCHFQslJ.png" title="双击下载的镜像文件进行装载" alt="双击下载的镜像文件进行装载" class="box px-0 py-0 mx-auto" width="200" /><br />
+
+<img src="https://i.loli.net/2021/08/02/lD5fIPynqdNLYZ4.png" title="双击运行 setup.exe 程序" alt="双击运行 setup.exe 程序" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<img src="https://i.loli.net/2021/08/02/1xKS5dH7EYpTgDC.png" title="Windows10 安装程序窗口" alt="Windows10 安装程序窗口" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<p>准备就绪后，安装程序会显示即将执行的默认操作，即“安装 Windows 10 家庭版”和“保留个人文件和应用”，我们可以点击“更改要保留的内容”，选择“无”以清空整个分区。最后点击安装，等待安装完成。</p>
+<img src="https://i.loli.net/2021/08/02/fZocz5RAKTM8HOp.png" title="确认要执行的操作" alt="确认要执行的操作" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<img src="https://i.loli.net/2021/08/02/ylHKhgxArBZW6R5.png" title="更改要执行的操作" alt="更改要执行的操作" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<img src="https://i.loli.net/2021/08/02/5xMValivGDJFHWS.png" title="等待系统安装完成" alt="等待系统安装完成" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<h2 id="方法三：将系统镜像写入 U 盘进行安装"><a href="# 方法三：将系统镜像写入 U 盘进行安装" class="headerlink" title="方法三：将系统镜像写入 U 盘进行安装"></a>方法三：将系统镜像写入 U 盘进行安装 </h2><p> 方法二并不总是能成功，而且如果你的系统出现问题，已经无法正常使用，那么你可以在另一台电脑上将下载好的镜像写入一个空的 U 盘，把这个 U 盘作为系统安装盘来重新安装 Windows 系统。</p>
+<p>下载并运行<a target="_blank" rel="noopener" href="https://rufus.ie/zh/">Rufus 工具</a>，Rufus 是一个可以格式化和创建可引导 USB 闪存盘的工具，使用它可以将我们下载的系统镜像写入到 U 盘中。设备选择我们插入的 U 盘，点击右侧选择按钮选择我们下载好的系统镜像，其他设置保持默认，点击“开始”进行写入。需要注意的是，写入过程会擦除原先 U 盘上所有的数据，所以一定要用一个没有重要数据的 U 盘。</p>
+<img src="https://i.loli.net/2021/08/02/sTnfw4i9uDAe2Sk.png" title="使用 Rufus 工具将系统镜像写入 U 盘" alt="使用 Rufus 工具将系统镜像写入 U 盘" class="box px-0 py-0 mx-auto" width="300" /><br />
+
+<p>写入完成后，将 U 盘插入自己的电脑并开机（如果是在自己电脑上进行的写入操作则重启电脑），并不断地点按电脑的启动菜单键（部分品牌笔记本电脑按键如下，有的电脑可能还要同时按下 Fn 键），直到出现一个类似下图的启动菜单。如果没有出现启动菜单而是直接进入了自己的系统，那么关机重来。很多电脑在 Logo 界面时如果你随便按一个键，它会提示你按哪个键进入启动菜单，按哪个键进入 BIOS，可以仔细观察一下。在启动菜单中选择自己的 U 盘（一般会以 EFI 开头且含有 U 盘厂商的名字，比如 SanDisk），按下回车键即可从 U 盘启动。</p>
+<table>
+<thead>
+<tr>
+<th>品牌</th>
+<th>启动按键</th>
+<th>品牌</th>
+<th>启动按键</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>联想</td>
+<td>F12</td>
+<td>华硕</td>
+<td>ESC</td>
+</tr>
+<tr>
+<td>苹果</td>
+<td>长按 Option</td>
+<td>神舟</td>
+<td>F12</td>
+</tr>
+<tr>
+<td>戴尔</td>
+<td>F12</td>
+<td>宏碁</td>
+<td>F12</td>
+</tr>
+<tr>
+<td>惠普</td>
+<td>F9</td>
+<td>三星</td>
+<td>F12</td>
+</tr>
+</tbody></table>
+<img src="https://i.loli.net/2021/08/02/BiUhPTzwS1lrsy9.png" title="选择通过 U 盘启动" alt="选择通过 U 盘启动" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<p>接着你将会看到 Windows 安装程序，在“激活 Windows”窗口，点击“我没有产品密钥”，跳过密钥的填写，接着选择要安装的 Windows 版本。</p>
+<img src="https://i.loli.net/2021/08/02/3hOMm2FtjRzQsxZ.png" title="Windows 安装程序" alt="Windows 安装程序" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<img src="https://i.loli.net/2021/08/02/aFszopYXbKim9Qc.png" title="选择要安装的版本" alt="选择要安装的版本" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<p>安装类型选择“自定义”，然后进入到安装分区选择界面，选择你要把系统安装在哪个盘，我们可以通过容量大小来辨别哪个是我们的 C 盘，把系统安装在这里。也可以在这个界面对分区进行调整，增加或者删除分区，但只建议动主分区，不要修改前面的“系统分区”和“MSR”分区。如果想清空某个分区的内容，可以选中分区然后点击下面的“格式化”按钮。</p>
+<img src="https://i.loli.net/2021/08/02/73eCwtmQFXv8GJZ.png" title="选择自定义类型安装" alt="选择自定义类型安装" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<img src="https://i.loli.net/2021/08/02/wAuiMXH4fvgW6zC.png" title="选择要安装到哪个分区" alt="选择要安装到哪个分区" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<p>点击“下一步”会提示安装过程可能把以前系统盘内的文件备份到“Windows.old”文件夹，如果不需要这些文件我们要记得装完系统后把文件夹删除，这个文件夹还是挺大的。之后等待安装完成即可。</p>
+<img src="https://i.loli.net/2021/08/02/Ui38LYJO7wr6jN5.png" title="等待安装完成" alt="等待安装完成" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<h2 id="方法四：使用 PE 系统进行系统安装"><a href="# 方法四：使用 PE 系统进行系统安装" class="headerlink" title="方法四：使用 PE 系统进行系统安装"></a>方法四：使用 PE 系统进行系统安装 </h2><p> 我最喜欢的方式还是使用 PE 来装系统，因为 PE 系统里带了一些很有用的工具，比如 DiskGenius，使得我们可以在重装前通过 PE 系统对硬盘进行重新分区，也可以直接在 PE 系统里对原操作系统的重要文件进行备份，根本不需要考虑原操作系统是否可用，这是给别人装系统最舒服的方式，而且从我的经历来看这种方法要比方法二和三更可靠一些。</p>
+<p>下载并运行 <a target="_blank" rel="noopener" href="http://www.wepe.com.cn/download.html"> 微 PE 工具箱 </a> 最新版本，点击“查看下载链接”按钮会提示捐赠，但并不是强制的，没有使用过可以先跳过捐赠，用后觉得不错再回来捐赠也行，注意下载 64 位版本。不要点软件界面正中间那个大大的“立即安装进系统”按钮！我们要安装到 U 盘。点击右下角“安装 PE 到 U 盘图标”，“安装方法”为默认的三分区方式，其他设置也保持默认即可，可以勾选“个性化盘符图标‘，也可以自定义 PE 系统的壁纸。</p>
+<img src="https://i.loli.net/2021/08/02/JaxMiFmf75VKygS.png" title="运行微 PE 工具箱" alt="运行微 PE 工具箱" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<img src="https://i.loli.net/2021/08/02/sjELy1hd4KJ3uVX.png" title="将微 PE 安装进 U 盘" alt="将微 PE 安装进 U 盘" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<p>成功把微 PE 安装到 U 盘之后，我们要让电脑从 U 盘启动，具体操作和方法三中描述一样。</p>
+<img src="https://i.loli.net/2021/08/02/BiUhPTzwS1lrsy9.png" title="选择通过 U 盘启动" alt="选择通过 U 盘启动" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<p>之后，我们就成功进入了 PE 系统，这个系统的样子跟我们平时所使用的系统看起来很像。点击桌面上的“此电脑”图标，可以看到自己硬盘上的分区，这里显示的盘符（C、D、E）可能和以前在系统中看到的不一样，这不重要，只是个代号而已。如果无法进入系统，那么可以在这里对我们的数据进行备份，把需要备份的东西复制到 U 盘的数据区即可。注意一下其中容量为 299M 的 Z 盘，后面要用到。</p>
+<img src="https://i.loli.net/2021/08/02/S85QLzOH9PeZi2f.png" title="进入 PE 系统" alt="进入 PE 系统" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<img src="https://i.loli.net/2021/08/03/Bj8Os93H74uIpKA.png" title="在 PE 系统中查看硬盘分区" alt="在 PE 系统中查看硬盘分区" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<p>DiskGenius 是一个非常好用的分区管理工具，我们可以用它对电脑上的分区重新进行规划，付费版本还提供了“数据恢复”功能，不过微 PE 自带的是免费版本没有这个功能。这里演示一个可选的操作，对重装系统来说不是必须的。比如说我觉得现在的分区太乱了我想重新建分区重新做人，不想要以前所有的分区和数据了，那么我们可以在左侧硬盘上点击鼠标右键，点击“删除所有分区”，执行完成后这个硬盘上所有的分区都被删除了，点击左上角“保存更改”按钮使操作生效（注意啊看准了硬盘别选错了！之前就有个小伙子在 PE 系统里把我放 PE 系统的 U 盘分区给删了……）。然后点击上面“快速分区”按钮，分区表类型选择“GUID”（有的版本显示为 GPT），选择合适的分区数量，“创建新 ESP 分区”和“创建 MSR 分区”要保留勾选，在右侧调整每个分区的大小和卷标，比如说我想要“系统”、“软件”、“数据”三个分区，之后点击“确定”执行操作。<strong>注意：这个操作会删除所有分区上的数据</strong></p>
+<img src="https://i.loli.net/2021/08/03/VyKMzednOfahxCZ.png" title="DiskGenius 工具" alt="DiskGenius 工具" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<img src="https://i.loli.net/2021/08/02/XcbZogm6YJjktPS.png" title="删除指定硬盘上的所有分区" alt="删除指定硬盘上的所有分区" class="box px-0 py-0 mx-auto" width="300" /><br />
+
+<img src="https://i.loli.net/2021/08/02/fJsVZN5h2WBLtA6.png" title="快速分区" alt="快速分区" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<p>重新分区完成后，可以看到系统的分区变成了一个 ESP 分区、一个 MSR 分区，一个 C 盘（系统盘）、一个 D 盘（软件盘）、一个 E 盘（数据盘）。其中，注意 ESP 分区的大小，300M，实际上就是前面看到的 Z 盘。</p>
+<img src="https://i.loli.net/2021/08/02/De2v9zQ41A3BIb6.png" title="重新分区完成" alt="重新分区完成" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<p>接着我们开始往硬盘上安装操作系统。运行桌面上的“Windows 安装器”，程序界面如下。有三个“位置”需要进行确认和修改，第一个“Windows 安装文件的位置”，就是安装镜像的位置，点击右侧“搜索”按钮选择之前放在 U 盘数据区的 Windows 镜像即可；第二个“引导驱动器的位置”就是前面那个 300M 大小的 ESP 分区，正常情况下程序会自动帮我们选择，需要确认一下自动选择的是否正确；第三个“安装驱动器的位置”，就是要把系统安装在哪里，这里选择我们划分的 C 盘（系统盘）。如果要安装其他的 Windows 版本，可以在下面下拉列表进行选择。其他选项保持默认不需要更改，点击“安装”按钮执行安装，完成后会提示重启。</p>
+<img src="https://i.loli.net/2021/08/02/dOnpky1jDxbGZ8v.png" title="使用 Windows 安装器进行系统安装" alt="使用 Windows 安装器进行系统安装" class="box px-0 py-0 mx-auto" width="600" /><br />
+
+<h2 id="方法对比"><a href="# 方法对比" class="headerlink" title="方法对比"></a>方法对比</h2><table>
+<thead>
+<tr>
+<th>方法</th>
+<th>难度</th>
+<th>需要准备</th>
+<th>局限性</th>
+<th>推荐指数</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>★☆☆</td>
+<td>无</td>
+<td>不能安装其他版本的系统</td>
+<td>★★★</td>
+</tr>
+<tr>
+<td>2</td>
+<td>★☆☆</td>
+<td>下载系统镜像</td>
+<td>似乎不能全盘擦除，而且我在虚拟机上安装失败了…</td>
+<td>☆☆☆</td>
+</tr>
+<tr>
+<td>3</td>
+<td>★★☆</td>
+<td>下载系统镜像、下载写盘工具、准备 U 盘</td>
+<td>一个 U 盘只能写一个系统镜像，而且不能再用来存别的东西</td>
+<td>★☆☆</td>
+</tr>
+<tr>
+<td>4</td>
+<td>★★☆</td>
+<td>下载系统镜像、下载 WePE、准备 U 盘</td>
+<td>/</td>
+<td>★★★</td>
+</tr>
+</tbody></table>
+<h2 id="常见问题解答"><a href="# 常见问题解答" class="headerlink" title="常见问题解答"></a>常见问题解答 </h2><h3 id="我安装的系统是正版系统吗？我要如何激活我的系统？"><a href="# 我安装的系统是正版系统吗？我要如何激活我的系统？" class="headerlink" title="我安装的系统是正版系统吗？我要如何激活我的系统？"></a> 我安装的系统是正版系统吗？我要如何激活我的系统？</h3><p>正版不正版的界定应该主要是你给没给微软钱……近几年购买的笔记本电脑一般都预装了正版的 Windows10 家庭版，如果你重装时选择的是家庭版系统，那么联网后会自动激活，这种情况算是电脑厂商给你花了钱的。如果你是比较早的电脑没有原装的正版系统，或者你就是想体验专业版或者企业版，可以自行搜索激活工具进行激活，比较主流的有数字权利激活和 KMS 激活两种方案。</p>
+<h3 id="家庭版、企业版、专业版，我该选哪一种？"><a href="# 家庭版、企业版、专业版，我该选哪一种？" class="headerlink" title="家庭版、企业版、专业版，我该选哪一种？"></a>家庭版、企业版、专业版，我该选哪一种？</h3><p>Consumer editions 包含 Home（家庭版）、Education（教育版）、Professional（专业版）</p>
+<p>Business editions 包含 Education（教育版）、Enterprise（企业版）、Professional（专业版）</p>
+<p>如果你不知道选啥版本那就选家庭版，说明更高级版本里的功能你也用不上。</p>
+</div><div class="article-licensing box"><div class="licensing-title"><p>面向小白的 Windows 系统重装教程</p><p><a href="https://www.nuke666.cn/2021/08/How-to-reinstall-Windows/">https://www.nuke666.cn/2021/08/How-to-reinstall-Windows/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>ChinaNuke</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2021-08-03</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2021/06/multi-network-routing/"><span class="level-item">Linux 多网络自动路由设置</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">评论</h3><div id="comment-container"></div><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/gitalk/1.7.2/gitalk.css"><script src="https://cdnjs.loli.net/ajax/libs/gitalk/1.7.2/gitalk.min.js"></script><script>var gitalk = new Gitalk({
+            id: "52ea949ede6364f6242d82c7ae4d9c12",
+            repo: "chinanuke.github.io",
+            owner: "ChinaNuke",
+            clientID: "3f7fe9cdb9780bcf2eb8",
+            clientSecret: "fa11d11f3291e3e92da34995cef1cea1eca4f60e",
+            admin: ["ChinaNuke"],
+            createIssueManually: false,
+            distractionFreeMode: false,
+            perPage: 10,
+            pagerDirection: "last",
+            proxy: "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token",
+            
+            enableHotKey: true,
+            language: "zh-CN",
+        })
+        gitalk.render('comment-container')</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="/img/avatar.jpg" alt="ChinaNuke"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">ChinaNuke</p><p class="is-size-6 is-block">一个入门小pwn手</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>中科院信息工程研究所</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">7</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">2</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">5</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/chinanuke" target="_blank" rel="noopener">关注我</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/chinanuke"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Email" href="Mailto:chinanuke@nuke666.cn"><i class="far fa-envelope"></i></a></div></div></div><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">目录</h3><ul class="menu-list"><li><a class="level is-mobile" href="#概念解释"><span class="level-left"><span class="level-item">1</span><span class="level-item">概念解释 </span></span></a></li><li><a class="level is-mobile" href="#重装系统前的准备工作"><span class="level-left"><span class="level-item">2</span><span class="level-item">重装系统前的准备工作 </span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#备份重要文件"><span class="level-left"><span class="level-item">2.1</span><span class="level-item"> 备份重要文件 </span></span></a></li><li><a class="level is-mobile" href="#获取系统镜像"><span class="level-left"><span class="level-item">2.2</span><span class="level-item">获取系统镜像</span></span></a></li></ul></li><li><a class="level is-mobile" href="#方法一：通过系统提供的重置功能"><span class="level-left"><span class="level-item">3</span><span class="level-item">方法一：通过系统提供的重置功能 </span></span></a></li><li><a class="level is-mobile" href="#方法二：直接运行镜像内的安装程序"><span class="level-left"><span class="level-item">4</span><span class="level-item">方法二：直接运行镜像内的安装程序 </span></span></a></li><li><a class="level is-mobile" href="#方法三：将系统镜像写入 U 盘进行安装"><span class="level-left"><span class="level-item">5</span><span class="level-item">方法三：将系统镜像写入 U 盘进行安装 </span></span></a></li><li><a class="level is-mobile" href="#方法四：使用 PE 系统进行系统安装"><span class="level-left"><span class="level-item">6</span><span class="level-item">方法四：使用 PE 系统进行系统安装 </span></span></a></li><li><a class="level is-mobile" href="#方法对比"><span class="level-left"><span class="level-item">7</span><span class="level-item">方法对比</span></span></a></li><li><a class="level is-mobile" href="#常见问题解答"><span class="level-left"><span class="level-item">8</span><span class="level-item">常见问题解答 </span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#我安装的系统是正版系统吗？我要如何激活我的系统？"><span class="level-left"><span class="level-item">8.1</span><span class="level-item"> 我安装的系统是正版系统吗？我要如何激活我的系统？</span></span></a></li><li><a class="level is-mobile" href="#家庭版、企业版、专业版，我该选哪一种？"><span class="level-left"><span class="level-item">8.2</span><span class="level-item">家庭版、企业版、专业版，我该选哪一种？</span></span></a></li></ul></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">链接</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://huuhghhgyg.github.io/" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Huuhghhgyg</span></span><span class="level-right"><span class="level-item tag">huuhghhgyg.github.io</span></span></a></li><li><a class="level is-mobile" href="http://www.f0und.icu/" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">F0und</span></span><span class="level-right"><span class="level-item tag">www.f0und.icu</span></span></a></li><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/Linux/"><span class="level-start"><span class="level-item">Linux</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/%E7%BD%91%E7%AB%99/"><span class="level-start"><span class="level-item">网站</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-08-03T08:18:50.000Z">2021-08-03</time></p><p class="title"><a href="/2021/08/How-to-reinstall-Windows/">面向小白的 Windows 系统重装教程</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-06-12T11:59:06.000Z">2021-06-12</time></p><p class="title"><a href="/2021/06/multi-network-routing/">Linux 多网络自动路由设置</a></p><p class="categories"><a href="/categories/Linux/">Linux</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-03-17T13:48:24.000Z">2021-03-17</time></p><p class="title"><a href="/2021/03/hexo-install-backup-recover-update/">Hexo 博客安装、备份、恢复和升级</a></p><p class="categories"><a href="/categories/%E7%BD%91%E7%AB%99/">网站</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-03-17T13:48:08.000Z">2021-03-17</time></p><p class="title"><a href="/2021/03/deploy-hexo-using-github-actions/">使用 GitHub Actions 部署 Hexo 博客</a></p><p class="categories"><a href="/categories/%E7%BD%91%E7%AB%99/">网站</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-09-08T12:02:31.000Z">2020-09-08</time></p><p class="title"><a href="/2020/09/how-to-use-git/">Git 基本操作</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">归档</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2021/08/"><span class="level-start"><span class="level-item">八月 2021</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/06/"><span class="level-start"><span class="level-item">六月 2021</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/03/"><span class="level-start"><span class="level-item">三月 2021</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/archives/2020/09/"><span class="level-start"><span class="level-item">九月 2020</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2020/07/"><span class="level-start"><span class="level-item">七月 2020</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/Git/"><span class="tag">Git</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Hexo/"><span class="tag">Hexo</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Markdown/"><span class="tag">Markdown</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"><span class="tag">使用技巧</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%BD%91%E7%BB%9C%E8%AE%BE%E7%BD%AE/"><span class="tag">网络设置</span><span class="tag">1</span></a></div></div></div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/">ChinaNuke的博客</a><p class="is-size-7"><span>&copy; 2021 ChinaNuke</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="我的 GitHub 主页" href="https://github.com/ChinaNuke"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://cdnjs.loli.net/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script><script>moment.locale("zh-CN");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: false,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdnjs.loli.net/ajax/libs/lightgallery/1.6.8/js/lightgallery.min.js" defer></script><script src="https://cdnjs.loli.net/ajax/libs/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
+        });</script></body></html>
