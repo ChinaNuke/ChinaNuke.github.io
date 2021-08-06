@@ -10836,7 +10836,7 @@ article.article .content h5 {
   font-size: 1em;
 }
 article.article .content pre {
-  font-size: 0.85em;
+  font-size: 0.9em;
 }
 article.article .content code {
   padding: 0;
@@ -11248,6 +11248,7 @@ figure.highlight {
   position: relative;
   margin: 1em 0 1em !important;
   border-radius: 4px;
+  background: rgba(40,44,52,0.95);
 }
 figure.highlight.folded .highlight-body {
   height: 0;
@@ -11275,6 +11276,8 @@ figure.highlight table tr:not(:last-child) td {
 figure.highlight pre {
   padding: 0;
   overflow: visible;
+  -moz-tab-size: 4 /* Firefox */;
+  tab-size: 4;
 }
 figure.highlight pre .line,
 figure.highlight pre code .hljs {
